@@ -1,5 +1,5 @@
 {
-    "name": "arturf/basecamp-api",
+    "name": "akaarchie/basecamp-api",
     "description": "PHP wrapper for new Basecamp API",
     "keywords": ["37Signals", "Basecamp", "PHP", "API"],
     "license": "MIT",
