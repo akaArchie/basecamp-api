@@ -25,7 +25,7 @@ abstract class AbstractApi
 
         // Fetch next pages
         $page = 2;
-        $response_count = count($response);
+        $response_count = count(array($response));
         while ($response_count == $this->page_size) {
           $next_params = empty($params) ? ['page' => $page] : array_merge($params, ['page' => $page]);
           $next_resource = ($resource . (false === strpos($resource, '?') ? '?' : '&') . http_build_query($next_params, '', '&'));
